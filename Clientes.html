@@ -1,0 +1,120 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="stylesheet" type="text/css" href="css/estilo.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+
+    </head>
+
+    <body>
+      <nav class="NavBar full">
+    <div class="row">
+      <div class="tittles NavBar-logo col s12 m3">COMPUTODO</div>
+      <ul class="NavBar-links col m9">
+        <li><a href="#" class="waves-effect">Inicio</a></li>
+        <li><a href="#RegModal" class="waves-effect modal-trigger">Registrarse</a></li>
+        <li><a href="#!" class="waves-effect btn-shopcart">Carrito de compras</a></li>
+        <li><a href="#LoginModal" class="waves-effect modal-trigger">Entrar</a></li> 
+      </ul>
+      <i class="zmdi zmdi-more-vert full btn-menu hide-on-med-and-up waves-effect"></i>
+    </div>
+  </nav>
+      <div class="row">
+        <div class="col s6 offset-s3 center">
+        <img src="images/logo.jpg" alt="logo" class="responsive-img">
+        </div>
+      </div>
+        <div class="row center">
+    <form id="formulario" class="col s8 offset-s2" action="javascript:void(0);" method="POST">
+      <div class="row">
+        <div class="input-field col s4">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="inpnombre" type="text" class="validate" name="nombre">
+          <label for="icon_prefix">Nombre</label>
+          <div class="errores" id="errnombre">Verifica este dato</div>
+        </div>
+        <div class="input-field col s4">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="inpapp" type="text" class="validate" name="app">
+          <label for="icon_prefix">Apellido Paterno</label>
+          <div class="errores" id="errorapp">Verifica este dato</div>
+        </div>
+        <div class="input-field col s4">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="inpapm" type="text" class="validate" name="apm">
+          <label for="icon_prefix">Apellido Materno</label>
+          <div class="errores" id="errorapm">Verifica este dato</div>
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="input-field col s4">
+          <i class="material-icons prefix">mail_outline</i>
+          <input id="inpcorreo" type="email" class="validate" name="email">
+          <label for="icon_telephone">Correo electronico</label>
+          <div class="errores" id="erroremail">Verifica este dato</div>
+        </div>
+        <div class="input-field col s4">
+          <i class="material-icons prefix">vpn_key</i>
+          <input id="inpcontrasena" type="password" class="validate" name="password">
+          <label for="icon_telephone">Contraseña</label>
+          <div class="errores" id="errorcontra">Verifica este dato</div>
+        </div>
+        <div class="input-field col s4">
+          <i class="material-icons prefix">vpn_key</i>
+          <input id="inpcontrasena2" type="password" class="validate" name="password2">
+          <label for="icon_telephone">Confirmar Contraseña</label>
+          <div class="errores" id="errorcontra2">Verifica este dato</div>
+        </div>
+      </div>
+      <div class="row center">
+        <div class="col s8 offset-s2">
+        <button id="btn-registrar" class="btn waves-effect waves-ligh">Registrar</button>
+        <p>Al registrarme declaro que soy mayor de edad y acepto las <a href="">politicas
+            de privacidad</a> y los terminos y <a href="#">condiciones de tu tienda online</a></p>
+        </div>
+      </div>
+    </form>
+  </div>
+
+        <footer class="page-footer blue darken-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Mi tienda Online</h5>
+                <p class="grey-text text-lighten-4">Encuentra todo lo que estas buscando</p>
+              </div>
+             <div class="col s12 m6 white-text">
+          <h5 class="center-align">Lorem ipsum dolor</h5>
+          <ul class="center-align">
+            <li><a href="#!"><i class="zmdi zmdi-facebook"></i> &nbsp; Facebook</a></li>
+            <li><a href="#!"><i class="zmdi zmdi-twitter"></i> &nbsp; Twitter</a></li>
+            <li><a href="#!"><i class="zmdi zmdi-google-plus"></i> &nbsp; Google+</a></li>
+            <li><a href="#!"><i class="zmdi zmdi-instagram"></i> &nbsp; Instagram</a></li>
+          </ul> 
+        </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 Copyright Text
+            
+            </div>
+          </div>
+        </footer>
+            
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/myjs.js"></script>
+    </body>
+  </html>
+        
